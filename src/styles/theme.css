@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap');
+
+:root {
+  /* LIGHT THEME PALETTE */
+  --bg: #f8fafc;           /* Main workspace background */
+  --surface: #ffffff;      /* Cards, Sidebar, Header */
+  --text: #0f172a;         /* Main text (dark slate) */
+  --text-muted: #64748b;   /* Secondary text (gray) */
+  --border: #e2e8f0;       /* Subtle borders */
+
+  /* ACCENTS */
+  --primary: #f97316;      /* Orange from Bonfol screenshot */
+  --primary-hover: #ea580c;
+  --success: #10b981;      /* Green for "Paid" */
+  --warning: #f59e0b;      /* Yellow for "Pending" */
+  --danger: #ef4444;       /* Red for "Cancelled" */
+  --sidebar-bg: #ffffff;
+
+  /* TYPOGRAPHY */
+  --font-family: 'Inter Tight', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 { margin: 0; font-weight: 700; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.125rem; }
+small { font-size: 0.875rem; }
+
+* { box-sizing: border-box; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; }
